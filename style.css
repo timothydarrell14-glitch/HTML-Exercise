@@ -1,9 +1,12 @@
 body {
-    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
 }
 .hero-section{
     background-color: aliceblue;
 }
 #attribute{
     background-color: aquamarine;
+}
+#links{
+    justify-content: center;
 }
