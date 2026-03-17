@@ -1,12 +1,46 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
 }
 .hero-section{
-    background-color: aliceblue;
+    background-color: white 
 }
 #attribute{
     background-color: aquamarine;
 }
 #links{
-    justify-content: center;
+    display: flex;
+    gap: 1rem;
 }
+#photo{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px; 
+}
+img#photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Optional: set a width smaller than the container to see the centering effect */
+  width: 30%
+}
+ul {
+  list-style: none; /* Removes the default dots */
+  padding-left: 0; /* Removes default padding to align the list */
+}
+
+li {
+  position: relative;
+  padding-left: 0.8em; /* Creates space for the checkmark */
+}
+
+li::before {
+  content: '✓'; /* The checkmark character */
+  position: absolute; /* Positions the checkmark within the reserved space */
+  left: 0;
+  color: black; /* Optional: customize the color */
+  margin-right: 8px; /* Adds a little space between the tick and the text */
+}
+/* Alternatives: ✓ (U+2713): content: '\2713'; or content: '✓';
+✔ (U+2714): content: '\2714'; or content: '✔';
+✅ (U+2705): content: '\2705'; or content: '✅'*/
