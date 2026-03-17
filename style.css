@@ -3,7 +3,7 @@ body {
     background-color: beige;
 }
 .hero-section{
-    background-color: white 
+    background-color: cornsilk 
 }
 #attribute{
     background-color: aquamarine;
@@ -44,3 +44,6 @@ li::before {
 /* Alternatives: ✓ (U+2713): content: '\2713'; or content: '✓';
 ✔ (U+2714): content: '\2714'; or content: '✔';
 ✅ (U+2705): content: '\2705'; or content: '✅'*/
+#header{
+    font-we;
+}
